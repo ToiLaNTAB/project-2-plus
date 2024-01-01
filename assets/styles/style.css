@@ -432,7 +432,6 @@ body {
 
 .courses .row {
      margin-top: 79px;
-     height: 517px;
 }
 .courses .courses-list {
      display: flex;
@@ -441,6 +440,7 @@ body {
 
 .courses .courses-list .course-item {
      width: 30.68%;
+     height: 517px;
      position: relative;
 }
 .courses .course-item .image-course {
@@ -459,8 +459,8 @@ body {
      background-color: #ffffff;
      box-shadow: 0px 16px 90px 0px #0000000d;
      position: absolute;
-     left: 17px;
-     top: 332px;
+     left: 4.7%;
+     top: 62.25%;
 }
 
 .course-item .content-course .heading {
@@ -519,4 +519,31 @@ body {
      margin-left: 26px;
 }
 
+.stats .content {
+     padding: 265px 155px;
+}
 
+.stats .content .row {
+     display: flex;
+     justify-content: space-between;
+     gap: 0 17.1%;
+}
+
+.stats .row .stat-item {
+     text-align: center;
+}
+
+.stats .row .number {
+     font-size: 6.2rem;
+     font-weight: 700;
+     line-height: 1.5;
+     color: var(--primary-color-heading-text);
+}
+
+.stats .row .desc {
+     margin-top: 11px;
+     font-size: 1.8rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: var(--primary-color-sup-title-text);
+}
