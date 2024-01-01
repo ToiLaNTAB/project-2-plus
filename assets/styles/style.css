@@ -317,3 +317,79 @@ body {
      color: #ffffff;
      background-color: #1ebfc1;
 }
+
+.features {
+     margin-top: 130px;
+}
+
+.features .sub-title {
+     font-size: 1.2rem;
+     font-weight: 700;
+     line-height: 1.5;
+     letter-spacing: 0.65rem;
+     text-transform: uppercase;
+     color: var(--primary-color-sup-title-text);
+}
+
+.features .heading {
+     margin-top: 18px;
+     width: 49.32%;
+     font-size: 4.2rem;
+     font-weight: 700;
+     line-height: 1.5;
+     color: var(--primary-color-heading-text);
+}
+
+.features .desc {
+     margin-top: 18px;
+     width: 50.43%;
+     font-size: 1.8rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: var(--primary-color-sup-title-text);
+}
+
+.features .row {
+     margin-top: 80px;
+}
+
+.features .row .list-items {
+     display: flex;
+     justify-content: space-between;
+}
+
+.features .list-items .item:nth-child(2) {
+     width: 36%;
+}
+
+.features .list-items .item:nth-child(1),
+.features .list-items .item:nth-child(3) {
+     width: 32%;
+}
+.list-items .item .title {
+     margin-top: 26px;
+     font-size: 2rem;
+     font-weight: 600;
+     line-height: 1.5;
+     color: var(--primary-color-heading-text);
+}
+
+.list-items .item .desc {
+     margin-top: 16px;
+     font-size: 1.6rem;
+     font-weight: 400;
+     line-height: 1.69;
+     color: var(--primary-color-paragraph-text);
+}
+
+.list-items .item:first-child .desc {
+     width: 44.78%;
+}
+
+.list-items .item:last-child .desc {
+     width: 59.82%;
+}
+
+.list-items .item:nth-child(2) .desc {
+     width: 54%;
+}
